@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: gray;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+#form {
+    min-width: 500px; 
+    background:#000;
+    backdrop-filter: blur(5px);
+    border: 1px ;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+   
+}
+
+h1 {
+    text-align: center;
+    color: slateblue;
+    margin: 30px;
+}
+
+#form button {
+    background-color: slateblue;
+    color: whitesmoke;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+#form p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.input_group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.input_group input {
+    border: 1px solid slateblue;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.input_group input:focus {
+    outline: 0;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input_group.success input {
+    border-color: #0cc477;
+}
+
+.input_group.error input {
+    border-color: red;
+}
+
+@media (max-width: 560px) {
+    /* Adjust font size for smaller screens */
+    h1 {
+      font-size: 24px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    button[type="submit"] {
+      font-size: 14px;
+    }
+    #form{
+      padding: 20px;
+      min-width: 400px; /*Reduce padding for smaller devices */ 
+    }
+  }
+
+  @media (max-width: 425px) {
+    /* Adjust font size for smaller screens */
+    h1 {
+      font-size: 18px;
+    }
+  
+    input {
+      font-size: 12px;
+      padding: auto;
+    }
+  
+    button[type="submit"] {
+      font-size: 12px;
+    }
+    #form{
+      padding: 15px; /*Reduce padding for smaller devices */ 
+      min-width: 300px;
+    }
+  }
+  
+  
+  
+  /* #618d99 */
+  
+  
+  
+  

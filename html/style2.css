@@ -1,0 +1,118 @@
+ /* To do list styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+ body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+.container1 {
+    max-width: 500px; 
+    background: rgb(0, 0, 0);
+    border:none;
+    margin: auto;
+    margin-top: 25vh;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color:crimson;
+    margin-bottom: 10px;
+}
+h1 span {
+    color:whitesmoke;
+}
+input[type="text"] {
+    width: 94%;
+    padding: 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: slateblue;
+    border: none;
+    border-radius: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+li button {
+    background-color:crimson;
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+  @media (max-width: 425px) {
+    /* Adjust font size for smaller screens */
+    h1 {
+      font-size: 18px;
+    }
+    .container1{
+      min-width: 400px;
+    }
+  
+    input {
+      font-size: 12px;
+      padding: auto;
+    }
+  
+    button[type="submit"] {
+      font-size: 12px;
+    }
+
+    }
+
+    @media (max-width: 375px) {
+        /* Adjust font size for smaller screens */
+        h1 {
+          font-size: 16px;
+        }
+        .container1{
+          min-width: 300px;
+        }
+      
+        input {
+          font-size: 12px;
+          padding: auto;
+        }
+      
+        button[type="submit"] {
+          font-size: 12px;
+        }
+    
+        }
+        
+
+  
+
+  
+  
+  
+  
+  
